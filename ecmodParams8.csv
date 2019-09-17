@@ -1,0 +1,19 @@
+key,value,description
+dimension, 8, the number of dimensions in the economic model
+eps1, 0.05, elasticity 1
+eps2, 0.1, elasticity 2
+eps3, 0.15, elasticity 3
+eps4, 0.2, elasticity 4
+eps5, 0.05, elasticity 5
+eps6, 0.1, elasticity 6
+eps7, 0.15, elasticity 7
+eps8, 0.2, elasticity 8
+incond1, 0.1, initial condition for X1
+incond2, 0.2, initial condition for X2
+incond3, 0.3, initial condition for X3
+incond4, 0.4, initial condition for X4
+incond5, 0.05, initial condition for X5
+incond6, 0.05, initial condition for X6
+incond7, 0.05, initial condition for X7
+incond8, 0.05, initial condition for X8
+drate, 0.1, discount rate in Utility

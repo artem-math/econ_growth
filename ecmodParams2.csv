@@ -1,0 +1,7 @@
+key,value,description
+dimension, 2, the number of dimensions in the economic model
+eps1, 0.1, elasticity 1
+eps2, 0.9, elasticity 2
+incond1, 1.0, initial condition for X1
+incond2, 2.0, initial condition for X2
+drate, 0.05, discount rate in Utility

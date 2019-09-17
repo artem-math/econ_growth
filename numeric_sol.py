@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
-
+# import os
+# os.chdir(r'/Users/ab/Google Drive/MAT/RFBR_Serge')
+# execfile(r'/Users/ab/Google Drive/MAT/RFBR_Serge/n_mer_ecmod.py')
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from pyomo.environ import *
 from pyomo.dae import *
 
-# Create a Pyomo model
+# Create a model
 m = ConcreteModel()
 
 # Define the time horizon and discretization step
@@ -16,9 +18,10 @@ dicsr_points = np.arange(0.0, duration, tstep)
 m.t = ContinuousSet(bounds=(0.0, duration), initialize = dicsr_points)
 
 ####PARAMETERS
-paramDF = pd.read_csv('ecmodParams3c2.csv')
-# paramDF = pd.read_csv('ecmodParams4.csv')
-# paramDF = pd.read_csv('ecmodParams8.csv')
+# paramDF = pd.read_csv('ecmodParams3c2.csv') # 3 points, case 2
+# paramDF = pd.read_csv('ecmodParams3c1.csv') # 3 points, case 1
+# paramDF = pd.read_csv('ecmodParams4.csv') # 4 points
+paramDF = pd.read_csv('ecmodParams8.csv') # 8 points
 
 params = dict(zip(paramDF.key,paramDF.value))
 #### Set model dimension
