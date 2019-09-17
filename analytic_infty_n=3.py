@@ -249,7 +249,7 @@ qtau2 =1./params['drate']/x30
 
 plotT = np.hstack((t01, t12, t2T))
 plotX1 = np.hstack((z4, z5, z1))
-fig, axes = plt.subplots(1, 1, dpi=200, figsize = (10,10))
+fig, axes = plt.subplots(1, 1, dpi=100, figsize = (8,8))
 
 # plt.plot(t01, z4)
 # plt.plot(t12, z5)
