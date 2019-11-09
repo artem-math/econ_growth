@@ -9,5 +9,6 @@ HOW TO RUN THE CODE
 2. Execute analytic_infty_n=3.py to obtain a numeric approximation for analytic infinite-horizon solution.
 3. Execute numeric_sol.py to obtain the numeric finite-horizon solution. 
 
+The code requires Pyomo and IPOPT solver. We recommend Anaconda as a simple way to install both of them.
 
 Keywords: multifactor economic model, Cobb-Douglas function, optimal control, maximum principle.
