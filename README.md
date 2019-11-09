@@ -6,8 +6,8 @@ The code allows to examine the n-dimensional economic model with the Cobb-Dougla
 
 HOW TO RUN THE CODE
 1. Update the relevant parameters for the run in the corresponding .csv file. For example, ecmodParams2.csv contains parameters for the 2-dimensional economic model.
-2. Execute analytic_infty_n=3.py to obtain a numeric approximation for analytic infinite-horizon solution.
-3. Execute numeric_sol.py to obtain the numeric finite-horizon solution. 
+2. (Works only for n=3) Execute analytic_infty_n=3.py to obtain a numeric approximation for analytic infinite-horizon solution.
+3. (Tested for n= 2, 3, 4, 8) Execute numeric_sol.py to obtain the numeric finite-horizon solution. 
 
 The code requires Pyomo and IPOPT solver. We recommend Anaconda as a simple way to install both of them.
 
